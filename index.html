@@ -4,89 +4,315 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Nawazra Febriyarifin</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f9;
+            margin: 0;
+            padding: 30px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background-color: white;
+            padding: 35px;
+            border-radius: 10px;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding-bottom: 25px;
+            border-bottom: 2px solid #2d6cdf;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            color: #2d6cdf;
+            font-size: 28px;
+        }
+
+        header h2 {
+            margin: 0 0 12px;
+            color: #333;
+            font-size: 22px;
+        }
+
+        .kontak {
+            line-height: 1.8;
+            font-size: 14px;
+        }
+
+        a {
+            color: #2d6cdf;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* BAGIAN */
+        .section {
+            margin-top: 28px;
+        }
+
+        h2 {
+            color: #2d6cdf;
+            font-size: 20px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h3 {
+            margin: 15px 0 5px;
+            font-size: 17px;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.7;
+            margin-top: 5px;
+        }
+
+        ul {
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        /* KEAHLIAN */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .skills li {
+            background-color: #eaf1ff;
+            color: #2d6cdf;
+            padding: 7px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+            font-size: 13px;
+            color: #777;
+        }
+
+        /* HP */
+        @media (max-width: 600px) {
+
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                width: 120px;
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            header h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>DAFTAR RIWAYAT HIDUP</h1>
+<div class="container">
 
-    <h2>Nawazra Febriyarifin</h2>
+    <header>
 
-    <p>
-        No. Telepon: 085890071874<br>
-        Tempat Tinggal: Jakarta, Indonesia<br>
-        Email: <a href="mailto:nawazrafebri@gmail.com">nawazrafebri@gmail.com</a><br>
-        LinkedIn: <a href="https://www.linkedin.com/" target="_blank">https://www.linkedin.com/in/nawazra-febriyarifin-ab0aab38b</a>
-    </p>
+        <img src="foto_cv.jpg" alt="Foto CV">
 
-    <hr>
+        <div class="header-info">
 
-    <h2>Profil</h2>
-    <p>
-        Mahasiswa semester 3 Program Studi Sistem Informasi di Telkom University yang memiliki
-        minat di bidang teknologi informasi dan pengelolaan sistem. Memiliki pemahaman dasar mengenai
-        database, SQL, dan Microsoft Office dari proses pembelajaran selama perkuliahan. Mampu bekerja
-        sama dalam tim, memiliki kemauan belajar yang tinggi, serta bertanggung jawab dalam menyelesaikan
-        tugas dan pekerjaan. Aktif mengikuti organisasi, kepanitiaan, serta kegiatan volunteering untuk
-        mengembangkan kemampuan komunikasi dan pengalaman berorganisasi.
-    </p>
+            <h1>DAFTAR RIWAYAT HIDUP</h1>
 
-    <h2>Pendidikan</h2>
-    <ul>
-        <li>
-            <strong>Telkom University</strong><br>
+            <h2>Nawazra Febriyarifin</h2>
+
+            <div class="kontak">
+                No. Telepon: 085890071874<br>
+                Tempat Tinggal: Jakarta, Indonesia<br>
+
+                Email:
+                <a href="mailto:nawazrafebri@gmail.com">
+                    nawazrafebri@gmail.com
+                </a>
+                <br>
+
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/nawazra-febriyarifin-ab0aab38b" target="_blank">
+                    LinkedIn Profile
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="section">
+
+        <h2>Profil</h2>
+
+        <p>
+            Mahasiswa semester 3 Program Studi Sistem Informasi di Telkom University yang memiliki
+            minat di bidang teknologi informasi dan pengelolaan sistem. Memiliki pemahaman dasar mengenai
+            database, SQL, dan Microsoft Office dari proses pembelajaran selama perkuliahan. Mampu bekerja
+            sama dalam tim, memiliki kemauan belajar yang tinggi, serta bertanggung jawab dalam menyelesaikan
+            tugas dan pekerjaan. Aktif mengikuti organisasi, kepanitiaan, serta kegiatan volunteering untuk
+            mengembangkan kemampuan komunikasi dan pengalaman berorganisasi.
+        </p>
+
+    </div>
+
+
+    <div class="section">
+
+        <h2>Pendidikan</h2>
+
+        <h3>Telkom University</h3>
+
+        <p>
             Program Studi Sistem Informasi<br>
             Semester 3
-        </li>
-        <li>
-            <strong>SMKN 17 JAKARTA</strong><br>
-            Rekayasa Perangkat Lunak
-        </li>
-    </ul>
+        </p>
 
-    <h2>Pengalaman</h2>
+        <h3>SMKN 17 JAKARTA</h3>
 
-    <h3>PT Infomedia Solusi Humanika</h3>
-    <p><strong>Magang - Divisi Sumber Daya Manusia (SDM)</strong></p>
-    <ul>
-        <li>Membantu proses administrasi dokumen karyawan.</li>
-        <li>Mengelola dan mengunggah dokumen PKWT serta perubahan status karyawan.</li>
-        <li>Membantu proses upload identitas karyawan dan dokumen addendum.</li>
-    </ul>
+        <p>
+            Rekayasa Perangkat Lunak<br>
+            2023 - 2025
+        </p>
 
-    <h3>Panitia PKKMB 2026</h3>
-    <p><strong>Divisi Medical</strong></p>
-    <ul>
-        <li>Membantu pelaksanaan kegiatan PKKMB dalam bidang kesehatan dan medis.</li>
-        <li>Bekerja sama dengan anggota divisi selama kegiatan berlangsung.</li>
-        <li>Membantu menjaga kesiapan dan kenyamanan peserta.</li>
-    </ul>
+    </div>
 
-    <h2>Organisasi dan Kegiatan</h2>
 
-    <h3>Bendahara Seni Tari</h3>
-    <ul>
-        <li>Bertanggung jawab dalam pengelolaan anggaran kegiatan dan perlengkapan seni tari.</li>
-        <li>Mengelola dan mencatat pemasukan serta pengeluaran dana.</li>
-    </ul>
+    <div class="section">
 
-    <h3>Volunteering</h3>
-    <ul>
-        <li><strong>SocoGiving - Volunteer Berkreasi Anyaman Kertas</strong></li>
-        <li><strong>Kita Bahagia - Hari Bumi</strong></li>
-        <li><strong>Barmus - Menanam Sekulen</strong></li>
-    </ul>
+        <h2>Pengalaman</h2>
 
-    <h2>Keahlian</h2>
-    <ul>
-        <li>Microsoft Office (Word, Excel, PowerPoint)</li>
-        <li>Power BI</li>
-        <li>Figma</li>
-        <li>Komunikasi</li>
-        <li>Kerja Sama Tim</li>
-        <li>Manajemen Waktu</li>
-        <li>Tanggung Jawab</li>
-    </ul>
+        <h3>PT Infomedia Solusi Humanika</h3>
+
+        <p>
+            <strong>Magang - Divisi Sumber Daya Manusia (SDM)</strong>
+        </p>
+
+        <ul>
+            <li>Membantu proses administrasi dokumen karyawan.</li>
+            <li>Mengelola dan mengunggah dokumen PKWT serta perubahan status karyawan.</li>
+            <li>Membantu proses upload identitas karyawan dan dokumen addendum.</li>
+        </ul>
+
+
+        <h3>Panitia PKKMB 2026</h3>
+
+        <p>
+            <strong>Divisi Medical</strong>
+        </p>
+
+        <ul>
+            <li>Membantu pelaksanaan kegiatan PKKMB dalam bidang kesehatan dan medis.</li>
+            <li>Bekerja sama dengan anggota divisi selama kegiatan berlangsung.</li>
+            <li>Membantu menjaga kesiapan dan kenyamanan peserta.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="section">
+
+        <h2>Organisasi dan Kegiatan</h2>
+
+        <h3>Bendahara Seni Tari</h3>
+
+        <ul>
+            <li>Bertanggung jawab dalam pengelolaan anggaran kegiatan dan perlengkapan seni tari.</li>
+            <li>Mengelola dan mencatat pemasukan serta pengeluaran dana.</li>
+        </ul>
+
+
+        <h3>Volunteering</h3>
+
+        <ul>
+            <li>SocoGiving - Volunteer Berkreasi Anyaman Kertas</li>
+            <li>Kita Bahagia - Hari Bumi</li>
+            <li>Barmus - Menanam Sekulen</li>
+        </ul>
+
+    </div>
+
+
+    <div class="section">
+
+        <h2>Keahlian</h2>
+
+        <ul class="skills">
+            <li>Microsoft Office</li>
+            <li>Power BI</li>
+            <li>Figma</li>
+            <li>Komunikasi</li>
+            <li>Kerja Sama Tim</li>
+            <li>Manajemen Waktu</li>
+            <li>Tanggung Jawab</li>
+        </ul>
+
+    </div>
+
+
+    <footer>
+        © 2026 Nawazra Febriyarifin
+    </footer>
+
+</div>
 
 </body>
 </html>
